@@ -1,0 +1,16 @@
+export const relativeStarCount = 100
+export const starSize = 2;
+export const cursorGravityRadius = 150;
+export const starGravityRadius = 60;
+export const starNoiseCoef = 0.6;
+export const cursorPointerSize = 10;
+export const cursorForceCoef = 600;
+export const starForceCoef = cursorForceCoef;
+export const starVelocityDamping = 0.4;
+export const maxStarVelocity = 100;
+export const starLinkDistance = 90;
+export const starLinkUnbindDistance = 100;
+export const singleStarLinkLifetime = 3000;
+export const inactiveLinkLifetime = 5000;
+
+

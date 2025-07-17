@@ -1,0 +1,36 @@
+@use 'layout';
+@use 'tags';
+
+.tn-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+}
+
+.card {
+  padding: 2rem;
+  color: white;
+  width: 100%;
+  background: rgba(30, 30, 30, 0.9);
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+  //  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 0 40px rgba(0, 255, 128, 0.05);
+  position: relative;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 0;
+}
