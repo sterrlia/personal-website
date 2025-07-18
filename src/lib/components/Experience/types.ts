@@ -29,7 +29,7 @@ export interface GroupItem {
 };
 
 export type Group = {
-    name: String;
+    name: string;
     items: GroupItem[];
 };
 

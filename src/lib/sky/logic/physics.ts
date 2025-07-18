@@ -12,12 +12,12 @@ export function applyCursorRepel(p5: p5) {
 
     const nearby = state.starTreeStore.search(searchBox);
 
-    for (let item of nearby) {
+    for (const item of nearby) {
         const star = item.star;
         state.removeStar(star);
     }
 
-    for (let item of nearby) {
+    for (const item of nearby) {
         const star = item.star;
 
         const dx = star.x - p5.mouseX;
@@ -41,8 +41,8 @@ export function applyPointRepel(p5: p5) {
         .all()
         .filter((item) => item.star.vx != 0 || item.star.vy != 0);
 
-    for (let item of moving) {
-        let star = item.star;
+    for (const item of moving) {
+        const star = item.star;
         const searchBox = {
             minX: star.x - constants.starGravityRadius,
             minY: star.y - constants.starGravityRadius,
@@ -56,8 +56,8 @@ export function applyPointRepel(p5: p5) {
 
         state.removeStar(star);
 
-        for (let neighborItem of nearbyItems) {
-            let neighborStar = neighborItem.star;
+        for (const neighborItem of nearbyItems) {
+            const neighborStar = neighborItem.star;
             if (neighborStar.id === star.id) {
                 continue;
             }
@@ -109,7 +109,7 @@ export function updateStars(p5: p5) {
         .all()
         .filter((item) => item.star.vx != 0 || item.star.vy != 0);
 
-    for (let item of moving) {
+    for (const item of moving) {
         const star = item.star;
         if (Math.abs(star.vx) < 0.01) {
             star.vx = 0;
@@ -184,8 +184,8 @@ export function updateStarLinks(p5: p5) {
 export function applyStarPulseAnimation(p5: p5) {
     const t = p5.millis() / 10000;
     const minRadius = constants.starSize - 1;
-    let radiusAdd = 3;
-    let radius = minRadius + Math.sin(t * p5.TWO_PI * 0.5) * radiusAdd;
+    const radiusAdd = 3;
+    const radius = minRadius + Math.sin(t * p5.TWO_PI * 0.5) * radiusAdd;
 
     for (const item of state.starTreeStore.all()) {
         item.star.r = radius;

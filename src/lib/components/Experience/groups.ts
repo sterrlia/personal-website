@@ -62,7 +62,7 @@ function buildGroupItems(group: GroupItemDefinition[]): GroupItem[] {
         .map((item) => {
             const logoData = assets.tools.find((icon) => icon.key === item.key);
             if (logoData) {
-                let result: GroupItem = {
+                const result: GroupItem = {
                     link: logoData.link,
                     iconKey: logoData.key,
                     name: logoData.name,
@@ -75,7 +75,7 @@ function buildGroupItems(group: GroupItemDefinition[]): GroupItem[] {
 
             const knowledgeData = assets.knowledge.find((knowledgeItem) => item.key === knowledgeItem.key)
             if (knowledgeData) {
-                let result: GroupItem = {
+                const result: GroupItem = {
                     link: knowledgeData.link,
                     iconKey: knowledgeData.iconKey,
                     name: knowledgeData.name,
@@ -96,7 +96,7 @@ function buildGroupItems(group: GroupItemDefinition[]): GroupItem[] {
 }
 
 export function get(level: ChoosenLevelType): Group[] {
-    let filteredScheme = level === "all"
+    const filteredScheme = level === "all"
         ? scheme
         : Object.fromEntries(
             Object.entries(scheme)
