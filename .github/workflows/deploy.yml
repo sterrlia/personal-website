@@ -1,4 +1,4 @@
-name: Svelte CI & Build
+name: check-and-deploy-on-pages
 
 on:
   push:
