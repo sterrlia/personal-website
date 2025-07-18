@@ -25,5 +25,38 @@
 </div>
 
 <style lang="scss">
-    @import "./styles.scss";
+    .grid.tool-grid {
+        grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    }
+
+    .skill-item {
+        width: 10rem;
+    }
+
+    .skill-label {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .skill-label:hover {
+        color: #348384;
+        cursor: pointer;
+    }
+
+    @media (max-width: 450px) {
+        .grid.tool-grid {
+            column-gap: 1rem;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .skill-item {
+            width: 8rem;
+        }
+    }
+    @media (max-width: 400px) {
+        .skill-item {
+            width: 6rem;
+        }
+    }
 </style>

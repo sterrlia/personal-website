@@ -50,5 +50,65 @@
 </div>
 
 <style lang="scss">
-    @import "./styles.scss";
+    .radio-slider {
+        display: flex;
+        background: #141414;
+        border: 1px solid;
+        border-color: #ffffff;
+        border-radius: 100px;
+        overflow: hidden;
+        width: 20rem;
+        position: relative;
+        font-family: sans-serif;
+    }
+
+    .radio-slider input[type="radio"] {
+        display: none;
+    }
+
+    .radio-slider label {
+        flex: 1;
+        text-align: center;
+        padding: 0.5rem 0;
+        cursor: pointer;
+        z-index: 2;
+        position: relative;
+        font-size: 14px;
+        color: #e5e5e5;
+    }
+
+    .radio-slider .slider-thumb {
+        position: absolute;
+        top: 2px;
+        bottom: 2px;
+        width: calc(100% / 3 - 4px);
+        background: #348384;
+        border-radius: 9999px;
+        transition: left 0.25s ease;
+        z-index: 1;
+    }
+
+    #option1:checked ~ .slider-thumb {
+        left: 2px;
+    }
+
+    #option2:checked ~ .slider-thumb {
+        left: calc(100% / 3 + 2px);
+    }
+
+    #option3:checked ~ .slider-thumb {
+        left: calc(2 * (100% / 3) + 2px);
+    }
+
+    @media (max-width: 400px) {
+        .radio-slider {
+            width: 15rem;
+        }
+    }
+
+    @media (max-width: 340px) {
+        .radio-slider {
+            width: 12rem;
+        }
+    }
 </style>
