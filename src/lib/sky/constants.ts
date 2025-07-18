@@ -1,4 +1,4 @@
-export const relativeStarCount = 100;
+export const relativeStarCount = 150;
 export const starSize = 2;
 export const cursorGravityRadius = 150;
 export const starGravityRadius = 60;
