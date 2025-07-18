@@ -3,10 +3,10 @@
 </script>
 
 <div class="card row">
-    <h2>Tools I use</h2>
+    <h2>Tools I&nbsp;use</h2>
 
     <section>
-        <h3>🧠 IDE & Editor</h3>
+        <h3>🧠 IDE &amp;&nbsp;Editor</h3>
         <ul>
             <li>
                 Primarily use <strong><Tool key="neovim" /></strong> for daily development
@@ -23,11 +23,11 @@
             </li>
         </ul>
 
-        <h3>🤖 AI Assistance</h3>
+        <h3>🤖 AI&nbsp;Assistance</h3>
         <ul>
-            <li>Speed up research and documentation lookup</li>
+            <li>Speed up&nbsp;research and documentation lookup</li>
             <li>Translate ideas into implementations</li>
-            <li>Explore alternative approaches or generate new ideas</li>
+            <li>Explore alternative approaches or&nbsp;generate new ideas</li>
         </ul>
 
         <h3>📝 Note-Taking</h3>
@@ -52,20 +52,22 @@
         <h3>⌨️ Other</h3>
         <ul>
             <li>
-                Typing on a <strong
+                Typing on&nbsp;a <strong
                     ><Tool key="colemak" showLogo={false} /></strong
                 >
                 keyboard layout
             </li>
             <li>
-                Use <strong><Tool key="nushell" /> </strong> as my main shell
-                with <strong><Tool key="atuin" /></strong> for fuzzy search
+                Use <strong><Tool key="nushell" /> </strong>
+                as&nbsp;my&nbsp;main shell with
+                <strong><Tool key="atuin" /></strong> for fuzzy search
             </li>
         </ul>
     </section>
     <p class="tools-explanation">
-        I know this setup might seem complicated, but I haven’t needed to change
-        it in a long time, it works for me.
+        I&nbsp;know this setup might seem complicated, but&nbsp;I haven&rsquo;t
+        needed to&nbsp;change it&nbsp;in&nbsp;a&nbsp;long time, it&nbsp;works
+        for&nbsp;me.
     </p>
 </div>
 
@@ -78,7 +80,7 @@
     li {
         padding: 0.2rem;
     }
-    
+
     .tools-explanation {
         margin-top: 0.5rem;
     }

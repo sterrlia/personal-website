@@ -18,5 +18,6 @@
             alt={`${iconData.name} logo`}
         />
     {/if}
+    &#65279;
     <span class={textClass}>{text}</span>
 </a>
