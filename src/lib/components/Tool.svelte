@@ -11,13 +11,14 @@
 </script>
 
 <a href={iconData.link} target="_blank">
-    {#if showLogo}
-        <img
-            class={iconClass}
-            src={`icons/${iconData.key}.svg`}
-            alt={`${iconData.name} logo`}
-        />
-    {/if}
-    &#65279;
-    <span class={textClass}>{text}</span>
+    <span style="white-space: nowrap;">
+        {#if showLogo}
+            <img
+                class={iconClass}
+                src={`icons/${iconData.key}.svg`}
+                alt={`${iconData.name} logo`}
+            />
+        {/if}
+        <span class={textClass}>{text}</span>
+    </span>
 </a>
