@@ -43,7 +43,7 @@
         </div>
     </div>
     <div class="row grid" data-columns="2" data-collapse-px="750">
-        {#each filteredGroups as group}
+        {#each filteredGroups as group (group.name)}
             <ExperienceGroup {group} />
         {/each}
     </div>

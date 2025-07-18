@@ -7,7 +7,7 @@
 <div>
     <h3>{group.name}</h3>
     <div class="grid tool-grid">
-        {#each group.items as item}
+        {#each group.items as item (item.key)}
             <a href={item.link} target="_blank">
                 <div class="tool-item row align-left no-wrap">
                     <img

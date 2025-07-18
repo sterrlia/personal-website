@@ -22,7 +22,7 @@
     <h2>My contacts</h2>
 
     <div class="row">
-        {#each contacts as contact}
+        {#each contacts as contact (contact.icon) }
             <a href={contact.link} target="_blank">
                 <img
                     class="icon"
