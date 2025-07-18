@@ -8,7 +8,7 @@ import {
 } from "./types";
 import * as assets from "$lib/assets";
 
-const scheme: GroupScheme = {
+export const scheme: GroupScheme = {
   language: [
     { key: "php", level: Level.Work },
     { key: "rust", level: Level.Personal },
