@@ -188,7 +188,7 @@ export const tools: ToolData[] = [
   {
     key: "sentry",
     name: "Sentry",
-    link: "https://sentry.io/",
+    link: "https://sentry.io/welcome/",
   },
   {
     key: "caddy",
