@@ -18,13 +18,13 @@
         <h2>Tools I&nbsp;use</h2>
 
         <section>
-            <h3>🧠 IDE &amp;&nbsp;Editor</h3>
+            <h3 class="tools-header">🧠 IDE &amp;&nbsp;Editor</h3>
             <ul>
-                <li>
+                <li class="tools-list-item">
                     Primarily use <strong><Tool key="neovim" /></strong> for daily
                     development
                 </li>
-                <li>
+                <li class="tools-list-item">
                     Use <strong>JetBrains IDEs</strong> (like <Tool
                         key="phpstorm"
                     />) for:
@@ -36,44 +36,48 @@
                 </li>
             </ul>
 
-            <h3>🤖 AI&nbsp;Assistance</h3>
+            <h3 class="tools-header">🤖 AI&nbsp;Assistance</h3>
             <ul>
-                <li>Speed up&nbsp;research and documentation lookup</li>
-                <li>Translate ideas into implementations</li>
-                <li>
+                <li class="tools-list-item">
+                    Speed up&nbsp;research and documentation lookup
+                </li>
+                <li class="tools-list-item">
+                    Translate ideas into implementations
+                </li>
+                <li class="tools-list-item">
                     Explore alternative approaches or&nbsp;generate new ideas
                 </li>
             </ul>
 
-            <h3>📝 Note-Taking</h3>
+            <h3 class="tools-header">📝 Note-Taking</h3>
             <ul>
-                <li>
+                <li class="tools-list-item">
                     Use <strong><Tool key="emacs" /></strong> with Vim keybindings
                 </li>
-                <li>
+                <li class="tools-list-item">
                     Notes follow the minimal <strong
                         ><Tool key="roam" />
                     </strong> method (bidirectional linking, simple graph structure)
                 </li>
             </ul>
 
-            <h3>🖥️ Operating System</h3>
+            <h3 class="tools-header">🖥️ Operating System</h3>
             <ul>
-                <li>
+                <li class="tools-list-item">
                     Daily driver: <strong><Tool key="linux" /></strong> (comfortable
                     with system-level configuration and DevOps tooling)
                 </li>
             </ul>
 
-            <h3>⌨️ Other</h3>
+            <h3 class="tools-header">⌨️ Other</h3>
             <ul>
-                <li>
+                <li class="tools-list-item">
                     Typing on&nbsp;a <strong
                         ><Tool key="colemak" showLogo={false} /></strong
                     >
                     keyboard layout
                 </li>
-                <li>
+                <li class="tools-list-item">
                     Use <strong><Tool key="nushell" /> </strong>
                     as&nbsp;my&nbsp;main shell with
                     <strong><Tool key="atuin" /></strong> for fuzzy search
@@ -88,12 +92,12 @@
     </div>
 
     <style>
-        h3 {
+        .tools-header {
             padding: 0;
             margin: 0;
         }
 
-        li {
+        .tools-list-item {
             padding: 0.2rem;
         }
 
