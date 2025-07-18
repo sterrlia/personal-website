@@ -62,6 +62,10 @@ export const scheme: GroupScheme = {
     { key: "clean-architecture", level: Level.Work },
     { key: "monolith", level: Level.Work },
   ],
+  protocols: [
+    { key: "websocket", level: Level.Personal },
+    { key: "http", level: Level.Personal },
+  ],
 };
 
 function buildGroupItems(group: GroupItemDefinition[]): GroupItem[] {
@@ -145,6 +149,10 @@ export function get(level: ChoosenLevelType): Group[] {
     {
       name: "Knowledge",
       items: buildGroupItems(filteredScheme.knowledge),
+    },
+    {
+      name: "Protocols",
+      items: buildGroupItems(filteredScheme.protocols),
     },
   ];
 

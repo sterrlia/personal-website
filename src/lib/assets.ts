@@ -325,6 +325,16 @@ export const tools: ToolData[] = [
     name: "Atuin",
     link: "https://atuin.sh/",
   },
+  {
+    key: "websocket",
+    name: "WebSocket",
+    link: "https://en.wikipedia.org/wiki/WebSocket",
+  },
+  {
+    key: "http",
+    name: "HTTP",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+  },
 ];
 
 export const fallbackIcon = {
