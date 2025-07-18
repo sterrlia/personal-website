@@ -8,6 +8,8 @@
     import Contacts from "$lib/components/Contacts.svelte";
 </script>
 
+<title>Resume</title>
+
 <div class="container">
     <div class="canvas-container">
         <P5 {sketch} />
