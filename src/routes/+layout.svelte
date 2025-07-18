@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/src/styles/index.scss" />
+<script lang="ts">
+import '../styles/index.scss';
 
-<script>
 let { children } = $props();
 </script>
 
