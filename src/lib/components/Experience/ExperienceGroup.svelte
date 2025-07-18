@@ -9,13 +9,13 @@
     <div class="grid tool-grid">
         {#each group.items as item}
             <a href={item.link} target="_blank">
-                <div class="skill-item row align-left no-wrap">
+                <div class="tool-item row align-left no-wrap">
                     <img
                         class="icon"
                         src="icons/{item.iconKey}.svg"
                         alt="{item.name} logo"
                     />
-                    <div class="skill-label">
+                    <div class="tool-label">
                         {item.name}
                     </div>
                 </div>
@@ -29,16 +29,16 @@
         grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     }
 
-    .skill-item {
+    .tool-item {
         width: 10rem;
     }
 
-    .skill-label {
+    .tool-label {
         font-size: 18px;
         color: #fff;
     }
 
-    .skill-label:hover {
+    .tool-label:hover {
         color: #348384;
         cursor: pointer;
     }
@@ -50,12 +50,12 @@
     }
 
     @media (max-width: 450px) {
-        .skill-item {
+        .tool-item {
             width: 8rem;
         }
     }
     @media (max-width: 400px) {
-        .skill-item {
+        .tool-item {
             width: 6rem;
         }
     }
