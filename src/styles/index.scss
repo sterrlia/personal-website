@@ -34,3 +34,23 @@
   pointer-events: none;
   z-index: 0;
 }
+
+.md-text {
+  font-size: 1.15em;
+}
+
+@media (max-width: 500px) {
+  .md-text {
+    font-size: 1rem;
+  }
+
+  .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .tn-icon {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}

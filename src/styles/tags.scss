@@ -22,6 +22,7 @@ hr {
 }
 
 h2 {
+  font-size: 2rem;
   margin: 0;
   padding: 0;
   position: relative;
@@ -37,6 +38,15 @@ p {
 
 span {
   font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+  li, p, span {
+    font-size: 1rem; /* or 0.9rem, adjust as needed */
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 ul {

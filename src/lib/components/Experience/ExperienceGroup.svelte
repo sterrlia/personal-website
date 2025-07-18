@@ -15,7 +15,7 @@
                         src="icons/{item.iconKey}.svg"
                         alt="{item.name} logo"
                     />
-                    <div class="tool-label">
+                    <div class="md-text tool-label">
                         {item.name}
                     </div>
                 </div>
@@ -34,7 +34,6 @@
     }
 
     .tool-label {
-        font-size: 18px;
         color: #fff;
     }
 
