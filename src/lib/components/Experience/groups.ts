@@ -63,8 +63,8 @@ export const scheme: GroupScheme = {
     { key: "monolith", level: Level.Work },
   ],
   protocols: [
+    { key: "http", level: Level.Work },
     { key: "websocket", level: Level.Personal },
-    { key: "http", level: Level.Personal },
   ],
 };
 
