@@ -10,7 +10,7 @@
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "eslint . --ext .js,.ts,.svelte --ignore-pattern '.svelte-kit/*' ",
+    "lint": "eslint . --ext .js,.ts,.svelte --ignore-pattern '.svelte-kit/*' --ignore-pattern 'build/*'",
     "format:check": "prettier --check ."
   },
   "devDependencies": {

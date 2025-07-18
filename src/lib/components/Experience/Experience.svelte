@@ -3,12 +3,7 @@
 
     import ExperienceGroup from "./ExperienceGroup.svelte";
     import * as groups from "./groups";
-    import {
-        type ChoosenLevelType,
-        type GroupItem,
-        type GroupItemDefinition,
-        LevelGroup,
-    } from "./types";
+    import { type ChoosenLevelType, type GroupItem, LevelGroup } from "./types";
 
     let choosenLevel: ChoosenLevelType = LevelGroup.All;
     $: filteredGroups = groups.get(choosenLevel);
@@ -123,7 +118,7 @@
 {:else}
     <h2>Skills & Experience</h2>
     <ul>
-        {#each groups.get(LevelGroup.All) as group}
+        {#each groups.get(LevelGroup.All) as group (group.name)}
             <li>
                 {group.name}: {group.items
                     .map((item: GroupItem) => item.name)
