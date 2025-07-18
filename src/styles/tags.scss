@@ -41,7 +41,9 @@ span {
 }
 
 @media (max-width: 500px) {
-  li, p, span {
+  li,
+  p,
+  span {
     font-size: 1rem; /* or 0.9rem, adjust as needed */
   }
   h2 {
