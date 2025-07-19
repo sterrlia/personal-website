@@ -30,17 +30,17 @@
         <p>
             I&nbsp;am {age}-year-old backend developer with {workTimeInYears}&nbsp;years
             of experience of&nbsp;development in
-            <Tool key="php" />. I&nbsp;graduated with honors in&nbsp;{graduatedAtYear}
-            with a&nbsp;degree in&nbsp;programming and have been building web applications
-            and backend systems ever since.
+            <Tool key="php" />. In&nbsp;{graduatedAtYear}, I&nbsp;graduated with honors from a
+            vocational college in programming and have been building
+            web applications and backend systems ever since.
         </p>
     </div>
 {:else}
     <h2>About me</h2>
     <p>
-        I am {age} year old backend developer with {workTimeInYears} years of experience
-        in PHP development. I graduated with honors in {graduatedAtYear} with a degree
-        in programming and have been building web applications and backend systems
-        ever since.
+        I am a {age}-year-old backend developer with {workTimeInYears} years of experience
+        in PHP development. In {graduatedAtYear}, I graduated with honors from a
+        vocational college in programming and have been building web
+        applications and backend systems ever since.
     </p>
 {/if}
