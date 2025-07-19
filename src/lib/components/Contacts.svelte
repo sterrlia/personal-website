@@ -18,7 +18,7 @@
             key: "linkedin",
             value: "sterrlia",
             alt: "Linkedin",
-            link: "https://www.linkedin.com",
+            link: "https://www.linkedin.com/in/sterrlia",
         },
     ];
 </script>
