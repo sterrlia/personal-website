@@ -1,6 +1,5 @@
 <script lang="ts">
     export let ats = false;
-    export const prerender = ats;
 
     import Tool from "./Tool.svelte";
 

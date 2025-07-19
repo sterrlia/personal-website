@@ -1,6 +1,5 @@
 <script lang="ts">
     export let ats = false;
-    export const prerender = ats;
 
     import ExperienceGroup from "./ExperienceGroup.svelte";
     import * as groups from "./groups";
@@ -117,7 +116,7 @@
         }
     </style>
 {:else}
-    <h2>Skills & Experience</h2>
+    <h2>Skills and Experience</h2>
     <ul>
         {#each groups.get(LevelGroup.All) as group (group.name)}
             <li>

@@ -1,6 +1,4 @@
 <script lang="ts">
-    export const prerender = true;
-
     import About from "./About.svelte";
     import Contacts from "./Contacts.svelte";
     import DevelopmentTools from "./DevelopmentTools.svelte";

@@ -1,6 +1,5 @@
 <script lang="ts">
     export let ats = false;
-    export const prerender = ats;
 
     let contacts = [
         {
