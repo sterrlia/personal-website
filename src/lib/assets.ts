@@ -11,6 +11,20 @@ export interface KnowledgeItem {
   link: string;
 }
 
+export interface WorkInterval {
+  start: string;
+  end: string;
+}
+
+export const phpWorkIntervals: WorkInterval[] = [
+  { start: "2021-03-09", end: "2023-04-24" },
+  { start: "2023-08-01", end: "2025-06-09" },
+];
+
+export const birthDate = new Date("2001-08-17");
+export const completedCollegeDate = new Date("2021-07-02");
+//export const completedSchoolDate = new Date('2017-06-28');
+
 export const knowledge: KnowledgeItem[] = [
   {
     key: "ddd",
