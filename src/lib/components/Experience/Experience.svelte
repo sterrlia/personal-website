@@ -1,5 +1,6 @@
 <script lang="ts">
     export let ats = false;
+    export const prerender = ats;
 
     import ExperienceGroup from "./ExperienceGroup.svelte";
     import * as groups from "./groups";
