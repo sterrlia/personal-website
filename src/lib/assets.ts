@@ -42,6 +42,12 @@ export const knowledge: KnowledgeItem[] = [
     name: "Monolithic Architecture",
     link: "https://www.ibm.com/think/topics/monolithic-architecture",
   },
+  {
+    key: "elm-architecture",
+    iconKey: "elm",
+    name: "Elm architecture",
+    link: "https://guide.elm-lang.org/architecture/",
+  },
 ];
 
 export const tools: ToolData[] = [
@@ -334,6 +340,11 @@ export const tools: ToolData[] = [
     key: "http",
     name: "HTTP",
     link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+  },
+  {
+    key: "graphql",
+    name: "GraphQL",
+    link: "https://graphql.org/",
   },
 ];
 

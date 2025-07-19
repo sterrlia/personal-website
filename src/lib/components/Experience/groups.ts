@@ -61,10 +61,12 @@ export const scheme: GroupScheme = {
     { key: "microservices", level: Level.Work },
     { key: "clean-architecture", level: Level.Work },
     { key: "monolith", level: Level.Work },
+    { key: "elm-architecture", level: Level.Personal },
   ],
-  protocols: [
+  api: [
     { key: "http", level: Level.Work },
     { key: "websocket", level: Level.Personal },
+    { key: "graphql", level: Level.Work },
   ],
 };
 
@@ -151,8 +153,8 @@ export function get(level: ChoosenLevelType): Group[] {
       items: buildGroupItems(filteredScheme.knowledge),
     },
     {
-      name: "Protocols",
-      items: buildGroupItems(filteredScheme.protocols),
+      name: "API",
+      items: buildGroupItems(filteredScheme.api),
     },
   ];
 

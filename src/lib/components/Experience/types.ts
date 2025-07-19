@@ -39,5 +39,5 @@ export interface GroupScheme {
   templating: GroupItemDefinition[];
   services: GroupItemDefinition[];
   knowledge: GroupItemDefinition[];
-  protocols: GroupItemDefinition[];
+  api: GroupItemDefinition[];
 }
