@@ -360,6 +360,11 @@ export const tools: ToolData[] = [
     name: "GraphQL",
     link: "https://graphql.org/",
   },
+  {
+    key: "vim",
+    name: "Vim",
+    link: "https://www.vim.org/",
+  },
 ];
 
 export const fallbackIcon = {

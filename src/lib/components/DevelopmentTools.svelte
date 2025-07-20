@@ -26,9 +26,9 @@
                     development
                 </li>
                 <li class="tools-list-item">
-                    Use <strong>JetBrains IDEs</strong> (like <Tool
-                        key="phpstorm"
-                    />) for:
+                    Use JetBrains IDEs (like <strong
+                        ><Tool key="phpstorm" /></strong
+                    >) for:
                     <ul>
                         <li>Database management</li>
                         <li>Debugging</li>
@@ -53,7 +53,10 @@
             <h3 class="tools-header">📝 Note-Taking</h3>
             <ul>
                 <li class="tools-list-item">
-                    Use <strong><Tool key="emacs" /></strong> with Vim keybindings
+                    Use <strong><Tool key="emacs" /></strong> with <Tool
+                        key="vim"
+                        showLogo={false}
+                    /> keybindings
                 </li>
                 <li class="tools-list-item">
                     Notes follow the minimal <strong
