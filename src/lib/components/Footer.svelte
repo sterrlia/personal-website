@@ -7,7 +7,8 @@
     <div class="card row footer-block">
         <span>
             Made with
-            <Tool key="svelte" />
+            <Tool key="svelte" />,
+            <Tool key="typescript" />
             and
             <Tool key="p5js" />
         </span>
@@ -21,5 +22,5 @@
         }
     </style>
 {:else}
-    Made with svelte and p5js
+    Made with svelte, typescript and p5js
 {/if}

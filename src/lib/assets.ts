@@ -365,6 +365,11 @@ export const tools: ToolData[] = [
     name: "Vim",
     link: "https://www.vim.org/",
   },
+  {
+    key: "typescript",
+    name: "TypeScript",
+    link: "https://www.typescriptlang.org/",
+  },
 ];
 
 export const fallbackIcon = {
