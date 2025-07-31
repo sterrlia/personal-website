@@ -67,6 +67,7 @@ export const scheme: GroupScheme = {
     { key: "http", level: Level.Work },
     { key: "websocket", level: Level.Personal },
     { key: "graphql", level: Level.Work },
+    { key: "openapi", level: Level.Work },
   ],
 };
 
