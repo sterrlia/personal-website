@@ -48,6 +48,9 @@
                 <li class="tools-list-item">
                     Explore alternative approaches or&nbsp;generate new ideas
                 </li>
+                <li class="tools-list-item">
+                    Code validation
+                </li>
             </ul>
 
             <h3 class="tools-header">📝 Note-Taking</h3>
