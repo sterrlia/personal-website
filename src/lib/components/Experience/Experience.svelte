@@ -20,6 +20,7 @@
                         name="level"
                         id="option1"
                         value="work"
+                        autocomplete="off" 
                         bind:group={choosenLevel}
                     />
                     <input
@@ -27,6 +28,7 @@
                         name="level"
                         id="option2"
                         value="all"
+                        autocomplete="off" 
                         bind:group={choosenLevel}
                     />
                     <input
@@ -34,6 +36,7 @@
                         name="level"
                         id="option3"
                         value="personal"
+                        autocomplete="off" 
                         bind:group={choosenLevel}
                     />
 
