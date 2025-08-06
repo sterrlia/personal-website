@@ -16,8 +16,9 @@ export const getSketch = (containerId: string): Sketch => {
     const resizeObserver = new ResizeObserver((entries) => {
       for (const entry of entries) {
         const cr = entry.contentRect;
+        state.windowData.width = cr.width;
+        state.windowData.height = cr.height;
         p5.resizeCanvas(cr.width, cr.height);
-        // Optionally redraw your sketch here
       }
     });
 
