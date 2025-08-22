@@ -20,6 +20,11 @@
             alt: "Linkedin",
             link: "https://www.linkedin.com/in/sterrlia",
         },
+        {
+            key: "discord",
+            value: "1391465901345476658",
+            link: "https://discord.com/users/1391465901345476658",
+        }
     ];
 </script>
 
