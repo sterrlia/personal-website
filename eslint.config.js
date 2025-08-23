@@ -4,11 +4,13 @@ import svelte from 'eslint-plugin-svelte';
 import globals from 'globals';
 import ts from 'typescript-eslint';
 import svelteConfig from './svelte.config.js';
+import prettier from 'eslint-config-prettier';
 
 export default ts.config(
     js.configs.recommended,
     ...ts.configs.recommended,
     ...svelte.configs.recommended,
+    prettier,
     {
         languageOptions: {
             globals: {
