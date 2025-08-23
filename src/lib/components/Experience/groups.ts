@@ -112,15 +112,15 @@ export function get(level: ChoosenLevelType): Group[] {
         level === 'all'
             ? scheme
             : Object.fromEntries(
-                  Object.entries(scheme).map(
-                      ([key, definitions]: [string, GroupItemDefinition[]]) => [
-                          key,
-                          definitions.filter(
-                              (definition) => definition.level === level
-                          ),
-                      ]
-                  )
-              );
+                Object.entries(scheme).map(
+                    ([key, definitions]: [string, GroupItemDefinition[]]) => [
+                        key,
+                        definitions.filter(
+                            (definition) => definition.level === level
+                        ),
+                    ]
+                )
+            );
 
     const groups: Group[] = [
         {
