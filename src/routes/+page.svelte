@@ -3,7 +3,6 @@
     import { getSketch } from "$lib/sky/sketch";
     import Experience from "$lib/components/Experience/Experience.svelte";
     import Footer from "$lib/components/Footer.svelte";
-    import DevelopmentTools from "$lib/components/DevelopmentTools.svelte";
     import About from "$lib/components/About.svelte";
     import Contacts from "$lib/components/Contacts.svelte";
     import Ats from "$lib/components/Ats.svelte";
@@ -34,9 +33,6 @@
             </div>
             <div class="row">
                 <Experience />
-            </div>
-            <div class="row">
-                <DevelopmentTools />
             </div>
         </div>
     </div>
