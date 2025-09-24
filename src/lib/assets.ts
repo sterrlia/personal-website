@@ -374,7 +374,7 @@ export const tools: ToolData[] = [
         key: 'elasticsearch',
         name: 'Elasticsearch',
         link: 'https://www.elastic.co/elasticsearch',
-    }
+    },
 ];
 
 export const fallbackIcon = {
