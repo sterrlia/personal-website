@@ -370,6 +370,11 @@ export const tools: ToolData[] = [
         name: 'TypeScript',
         link: 'https://www.typescriptlang.org/',
     },
+    {
+        key: 'elasticsearch',
+        name: 'Elasticsearch',
+        link: 'https://www.elastic.co/elasticsearch',
+    }
 ];
 
 export const fallbackIcon = {
